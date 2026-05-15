@@ -1,0 +1,7 @@
+outputs/
+__pycache__/
+venv/
+.claude/settings.local.json
+*.aux
+*.log
+*.out

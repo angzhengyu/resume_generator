@@ -1,0 +1,69 @@
+{
+    "output_dir": "outputs",
+    "template_file": "templates/resume_templates.tex",
+    "photo_dir": "photos",
+    "required_fields": {
+        "name": {
+            "prompt": "请输入姓名",
+            "placeholder": "{{name}}",
+            "required": true
+        },
+        "email": {
+            "prompt": "请输入邮箱",
+            "placeholder": "{{email}}",
+            "required": true
+        },
+        "phone": {
+            "prompt": "请输入电话",
+            "placeholder": "{{phone}}",
+            "required": true
+        },
+        "age": {
+            "prompt": "请输入年龄",
+            "placeholder": "{{age}}",
+            "required": true
+        },
+        "hometown": {
+            "prompt": "请输入户籍/籍贯",
+            "placeholder": "{{hometown}}",
+            "required": true
+        },
+        "location": {
+            "prompt": "请输入现所在地",
+            "placeholder": "{{location}}",
+            "required": true
+        },
+        "education": {
+            "prompt": "请输入教育经历（格式：时间段 学校 专业 | 学位）",
+            "placeholder": "{{education}}",
+            "required": true,
+            "example": "2023.9-2027.6 XXX大学 计算机科学与技术 | 本科"
+        },
+        "courses": {
+            "prompt": "请输入主修课程",
+            "placeholder": "{{courses}}",
+            "required": true
+        },
+        "projects": {
+            "prompt": "请输入项目经历（每个项目包含：项目名称、项目描述、项目职责、项目成果）",
+            "placeholder": "{{projects}}",
+            "required": true,
+            "format": "多个项目请用'---'分隔"
+        },
+        "honors": {
+            "prompt": "请输入在校荣誉/获奖经历",
+            "placeholder": "{{honors}}",
+            "required": false
+        },
+        "skills": {
+            "prompt": "请输入关键技能（办公技能、编程技能等）",
+            "placeholder": "{{skills}}",
+            "required": true
+        },
+        "self_evaluation": {
+            "prompt": "请输入自我评价",
+            "placeholder": "{{self_evaluation}}",
+            "required": true
+        }
+    }
+}
